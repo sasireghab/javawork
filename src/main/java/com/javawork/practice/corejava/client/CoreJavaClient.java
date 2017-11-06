@@ -131,7 +131,7 @@ public class CoreJavaClient {
 		
 		IMyIfClass mif = new MyIfClass();
 		
-			
+			mif.compare("REGHA", "REGHA", "SENTHIL");
 		
 			
 			
