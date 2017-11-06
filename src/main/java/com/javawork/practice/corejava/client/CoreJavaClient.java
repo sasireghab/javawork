@@ -1,5 +1,7 @@
 package com.javawork.practice.corejava.client;
 
+import com.javawork.practice.corejava.myifclass.IMyIfClass;
+import com.javawork.practice.corejava.myifclass.MyIfClass;
 import com.javawork.practice.corejava.mypattern.IPattern;
 import com.javawork.practice.corejava.mypattern.Pattern;
 import com.javawork.practice.corejava.mystringoperation.IStringOperation;
@@ -113,11 +115,9 @@ public class CoreJavaClient {
 		
 	/*	IMyWhileClass mywc = new MyWhileClass();
 		
-			int i= mywc.i(1);
-			System.out.println("CURRENT I VALUE IS:: "+i);
-		
-			int j = mywc.k(2);
-			System.out.println("CURRENT I VALUE IS:: "+j);
+			//int i= mywc.i(1);
+			//System.out.println("CURRENT I VALUE IS:: "+i);
+			mywc.k(5);
 	*/
 		
 	/*	IMySwitchClass sc = new MySwitchClass();
@@ -129,7 +129,13 @@ public class CoreJavaClient {
 			sc.cal(90, 'A');
 	*/
 		
+		IMyIfClass mif = new MyIfClass();
 		
+			
+		
+			
+			
+			
 		}
 
 }

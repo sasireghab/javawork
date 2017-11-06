@@ -2,7 +2,7 @@ package com.javawork.practice.corejava.mywhile;
 
 public class MyWhileClass implements IMyWhileClass{
 	
-	public int i(int i) {
+	/*public int i(int i) {
 		System.out.println("CURRENT I VALUE IS :: "+i);
 		while(i <= 10)
 		{
@@ -10,32 +10,30 @@ public class MyWhileClass implements IMyWhileClass{
 			i+=2;
 		}
 		return i;
-		
-	public int k(int i) {
-		int k = 0;
-		System.out.println("CURRENT I VALUE IS :: "+i);
-		while(i <= 30)
+	*/
+	public void k(int j) {
+		System.out.println("CURRENT I VALUE IS :: "+j);
+		while(j <= 30)
 		{
-			if(i == 20)
+			if(j == 20)
 			{
 				System.out.println("ENDING IF");
 				break;
 			}
-			else if(i >= 20)
+			else if(j >= 30)
 			{
 				System.out.println("EXECUTING ELSEIF ");
 				continue;
 			}
 			else
 			{
-				System.out.println("WHILE ELSE IF ::"+ i);
-				i+=2;
+				System.out.println("WHILE ELSE IF ::"+ j);
+				j+=2;
 			}
 		}
-		return k;
 
 	}
 		
 	}
 
-}
+
