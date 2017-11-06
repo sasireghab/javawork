@@ -1,5 +1,7 @@
 package com.javawork.practice.corejava.client;
 
+import com.javawork.practice.corejava.MySum.ISum;
+import com.javawork.practice.corejava.MySum.MySum;
 import com.javawork.practice.corejava.MySwap.ISwap;
 import com.javawork.practice.corejava.MyWordPrint.IWordPrint;
 import com.javawork.practice.corejava.MyWordPrint.MyWordPrint;
@@ -15,7 +17,7 @@ public class CoreJavaClient {
 		
 		}*/
 		
-		ISwap swap = new MySwap()
+		/*ISwap swap = new MySwap()
 		{
 			int a = swap.bswap(10);
 			int b = swap.bswap1(20);
@@ -27,7 +29,18 @@ public class CoreJavaClient {
 			System.out.println("VALUE AFTER SWAP ");
 			System.out.println("A ::"+a);
 			System.out.println("B ::"+b);
-		}
+		}*/
+		
+		/*ISum find = new MySum() {
+			
+			int sum = find.sum(10,20);
+			System.out.println("Sum INPUT A ::"+a);
+			System.out.println("Sum INPUT B ::"+b);
+			System.out.println("SUM OF TWO VALUE IS ::"+sum);
+			}*/
+		
+		
 	}
-
 }
+
+	
