@@ -1,17 +1,23 @@
 package com.javawork.practice.corejava.client;
 
-import com.javawork.practice.corejava.MyStringOperation.IStringOperation;
-import com.javawork.practice.corejava.MyStringOperation.StringOperation;
-import com.javawork.practice.corejava.MySum.ISum;
-import com.javawork.practice.corejava.MySum.MySum;
-import com.javawork.practice.corejava.MySwap.ISwap;
-import com.javawork.practice.corejava.MySwap.MySwap;
-import com.javawork.practice.corejava.MyTernaryOperator.ITernaryOperator;
-import com.javawork.practice.corejava.MyTernaryOperator.MyTernaryOperator;
-import com.javawork.practice.corejava.MyTwoDimArrayDemo.ITwoDimArray;
-import com.javawork.practice.corejava.MyTwoDimArrayDemo.MyTwoDimArray;
-import com.javawork.practice.corejava.MyWordPrint.IWordPrint;
-import com.javawork.practice.corejava.MyWordPrint.MyWordPrint;
+import com.javawork.practice.corejava.mypattern.IPattern;
+import com.javawork.practice.corejava.mypattern.Pattern;
+import com.javawork.practice.corejava.mystringoperation.IStringOperation;
+import com.javawork.practice.corejava.mystringoperation.StringOperation;
+import com.javawork.practice.corejava.mysum.ISum;
+import com.javawork.practice.corejava.mysum.MySum;
+import com.javawork.practice.corejava.myswap.ISwap;
+import com.javawork.practice.corejava.myswap.MySwap;
+import com.javawork.practice.corejava.myswitchclass.IMySwitchClass;
+import com.javawork.practice.corejava.myswitchclass.MySwitchClass;
+import com.javawork.practice.corejava.myternaryoperator.ITernaryOperator;
+import com.javawork.practice.corejava.myternaryoperator.MyTernaryOperator;
+import com.javawork.practice.corejava.mytwodimarraydemo.ITwoDimArray;
+import com.javawork.practice.corejava.mytwodimarraydemo.MyTwoDimArray;
+import com.javawork.practice.corejava.mywhile.IMyWhileClass;
+import com.javawork.practice.corejava.mywhile.MyWhileClass;
+import com.javawork.practice.corejava.mywordprint.IWordPrint;
+import com.javawork.practice.corejava.mywordprint.MyWordPrint;
 
 public class CoreJavaClient {
 
@@ -87,13 +93,42 @@ public class CoreJavaClient {
 		
 			String result = so.fullName("REGHA", "SENTHIL"); 
 			System.out.println(result);
-			//char[] result1 = so.letter{'a','b','c','d','e'};
+			//char[] result1 = so.letter('a','b','c','d','e');
 			//System.out.println(result1[3],result1[0]);
 		
 	
 	*/
 		
-		//I
+	/*	IPattern pat = new Pattern();
+		
+			String pr1 = pat.print1("   J       a   v     v    a     \");                                            \r\n" + 
+			String pr2 = pat.print2("  J 	  a a   v   v    a a    \");                                             \r\n" + 
+			String pr3 = pat.print3("  J J    aaaaa   V V    aaaaa   \");                                          \r\n" + 
+			String pr4 = pat.print4("  JJJ   a     a   V    a     a  \");
+			System.out.println(pr1);
+			System.out.println(pr2);
+			System.out.println(pr3);
+			System.out.println(pr4);
+	*/
+		
+	/*	IMyWhileClass mywc = new MyWhileClass();
+		
+			int i= mywc.i(1);
+			System.out.println("CURRENT I VALUE IS:: "+i);
+		
+			int j = mywc.k(2);
+			System.out.println("CURRENT I VALUE IS:: "+j);
+	*/
+		
+	/*	IMySwitchClass sc = new MySwitchClass();
+		
+			sc.calgrade(60);
+	*/
+	/*	IMySwitchClass sc = new MySwitchClass();
+		
+			sc.cal(90, 'A');
+	*/
+		
 		
 		}
 
