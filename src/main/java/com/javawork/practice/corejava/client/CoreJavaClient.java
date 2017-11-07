@@ -1,26 +1,5 @@
 package com.javawork.practice.corejava.client;
 
-import com.javawork.practice.corejava.myifclass.IMyIfClass;
-import com.javawork.practice.corejava.myifclass.MyIfClass;
-import com.javawork.practice.corejava.mypattern.IPattern;
-import com.javawork.practice.corejava.mypattern.Pattern;
-import com.javawork.practice.corejava.mystringoperation.IStringOperation;
-import com.javawork.practice.corejava.mystringoperation.StringOperation;
-import com.javawork.practice.corejava.mysum.ISum;
-import com.javawork.practice.corejava.mysum.MySum;
-import com.javawork.practice.corejava.myswap.ISwap;
-import com.javawork.practice.corejava.myswap.MySwap;
-import com.javawork.practice.corejava.myswitchclass.IMySwitchClass;
-import com.javawork.practice.corejava.myswitchclass.MySwitchClass;
-import com.javawork.practice.corejava.myternaryoperator.ITernaryOperator;
-import com.javawork.practice.corejava.myternaryoperator.MyTernaryOperator;
-import com.javawork.practice.corejava.mytwodimarraydemo.ITwoDimArray;
-import com.javawork.practice.corejava.mytwodimarraydemo.MyTwoDimArray;
-import com.javawork.practice.corejava.mywhile.IMyWhileClass;
-import com.javawork.practice.corejava.mywhile.MyWhileClass;
-import com.javawork.practice.corejava.mywordprint.IWordPrint;
-import com.javawork.practice.corejava.mywordprint.MyWordPrint;
-
 public class CoreJavaClient {
 
 	public static void main(String[] args) {
@@ -52,14 +31,14 @@ public class CoreJavaClient {
 			int sum = find.sum(10,20);
 			System.out.println("SUM OF TWO VALUE IS ::"+sum);
 	*/
-		
-		/*ITwoDimArray twoArray = new MyTwoDimArray();
+	/*	
+		ITwoDimArray twoArray = new MyTwoDimArray();
 		
 			int[][] ans = twoArray.ans(
-										{
+										new int[][]{
 											{69,75,43,55,35,87},
 											{90,80,70,60,50,40}	
-										};
+										}
 									);
 			System.out.println("Size of ans is  "+ ans.length); 
 			System.out.println("*****************************************");
@@ -79,9 +58,9 @@ public class CoreJavaClient {
 	        System.out.println("Marks of Sixth Subject- "+ ans[1][5]);  
 			System.out.println("*****************************************");
 	    
-			
-		*/
+	*/		
 		
+	
 	/*	ITernaryOperator to = new MyTernaryOperator();
 		
 			int result = to.mark('A','B');
@@ -124,19 +103,26 @@ public class CoreJavaClient {
 		
 			sc.calgrade(60);
 	*/
+		
 	/*	IMySwitchClass sc = new MySwitchClass();
 		
 			sc.cal(90, 'A');
 	*/
 		
-		IMyIfClass mif = new MyIfClass();
+	/*	IMyIfClass mif = new MyIfClass();
 		
 			mif.compare("REGHA", "REGHA", "SENTHIL");
+		
+	*/
+		
+		
 		
 			
 			
 			
 		}
+	
+	
 
 }
 	

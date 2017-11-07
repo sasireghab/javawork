@@ -1,12 +1,12 @@
 package com.javawork.practice.corejava.mytwodimarraydemo;
 
-public class MyTwoDimArray implements ITwoDimArray{
+/*public class MyTwoDimArray implements ITwoDimArray{
 	
-	public int[][] ans(int[][] a)
+	public void ans(int[][] a)
 	{
 
-		int[][] result = {{}};
-		return result;
+		int a = int[][] a {{}};
+		return a;
 	}
 
-}
+}*/
